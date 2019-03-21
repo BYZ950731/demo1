@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/button_s"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="百度"/>
+
+    <Button
+        android:id="@+id/button_tel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="拨号"/>
+
+    <Button
+        android:id="@+id/button_call"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="呼叫"/>
+    <Button
+        android:id="@+id/button_geo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="位置"/>
+    <Button
+        android:id="@+id/button_msg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="短信"/>
+    <Button
+        android:id="@+id/button_ema"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="邮件"/>
+
+    <Button
+        android:id="@+id/button_b"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Back"/>
+
+
+</LinearLayout>
