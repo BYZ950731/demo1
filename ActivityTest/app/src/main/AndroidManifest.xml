@@ -21,6 +21,7 @@
         </activity>
         <activity
             android:name=".SecondActivity"
+            android:launchMode="singleTop"
             android:label="计算器">
             <intent-filter>
                 <action android:name="com.example.activitytest.ACTION_START" />

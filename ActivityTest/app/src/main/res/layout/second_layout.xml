@@ -39,10 +39,22 @@
         android:text="邮件"/>
 
     <Button
+        android:id="@+id/button_standard"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="启动模式测试"/>
+
+    <Button
         android:id="@+id/button_b"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="Back"/>
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="退出程序"/>
 
 
 </LinearLayout>

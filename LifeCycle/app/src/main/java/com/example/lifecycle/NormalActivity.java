@@ -1,13 +1,13 @@
-package com.example.activitytest;
+package com.example.lifecycle;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ThirdActivity extends BaseActivity {
+public class NormalActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.third_layout);
+        setContentView(R.layout.normal_layout);
     }
 }
