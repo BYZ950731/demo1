@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <com.example.uilayouttset.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/buttom_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="1"/>
+
+    <Button
+        android:id="@+id/buttom_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttom_3"
+        android:layout_toRightOf="@id/buttom_3"
+        android:text="2"/>
+    <Button
+        android:id="@+id/buttom_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="3"/>
+
+    <Button
+        android:id="@+id/buttom_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/buttom_3"
+        android:layout_below="@id/buttom_3"
+        android:text="4"/>
+
+    <Button
+        android:id="@+id/buttom_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/buttom_3"
+        android:layout_below="@id/buttom_3"
+        android:text="5"/>
+
+
+
+
+</LinearLayout>
