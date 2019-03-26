@@ -33,10 +33,12 @@ public  class MainActivity extends AppCompatActivity implements View.OnClickList
     }
 
     private void replaceFragment(Fragment fragment){
+        /*
         FragmentManager fragmentManager=getSupportFragmentManager();
         FragmentTransaction transaction=fragmentManager.beginTransaction();
         transaction.replace(R.id.right_layout,fragment);
         transaction.addToBackStack(null);
         transaction.commit();
+        */
     }
 }

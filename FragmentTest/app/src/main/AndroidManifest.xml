@@ -17,9 +17,7 @@
             </intent-filter>
         </activity>
 
-        <meta-data
-            android:name="com.google.android.actions"
-            android:resource="@xml/layout_a" />
+
     </application>
 
 </manifest>
