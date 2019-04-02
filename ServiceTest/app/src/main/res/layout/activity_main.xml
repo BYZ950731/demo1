@@ -17,6 +17,25 @@
         android:layout_height="wrap_content"
         android:text="Stop Service"
         android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/bind_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bind Service"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/unbind_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unbind Service"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/start_intent__service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Intent Service"
+        android:textAllCaps="false"/>
 
 
 
